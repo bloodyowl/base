@@ -78,7 +78,7 @@ module.exports = function(grunt){
           stylesheet: "css",
           htmlDemo: true,
           destHtml: path.resolve(__dirname, "./dist/"),
-          relativeFontPath: "../font/icons/",
+          relativeFontPath: "../fonts/icons/",
           templateOptions: {
             baseClass: "Icon",
             classPrefix: 'Icon--',
