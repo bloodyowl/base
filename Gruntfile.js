@@ -70,7 +70,7 @@ module.exports = function(grunt){
     },
     webfont: {
       icons: {
-        src: path.resolve(__dirname, "./images/**/*.svg"),
+        src: path.resolve(__dirname, "./fonts/**.svg"),
         dest: path.resolve(__dirname, "./dist/fonts/icons"),
         destCss: path.resolve(__dirname, "./css/imports/"),
         syntax: "bem",
