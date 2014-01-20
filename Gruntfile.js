@@ -105,7 +105,7 @@ module.exports = function(grunt){
         tasks: ["stylus"]
       },
       markup: {
-        files: ["layout/*.jade", "layout/**/*.jade"],
+        files: ["layout/*.jade", "layout/**/*.jade", "i18n/*.*", "i18n/**/*.*"],
         tasks: ["jade"]
       },
       fonts: {
