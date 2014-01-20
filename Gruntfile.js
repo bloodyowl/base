@@ -70,7 +70,7 @@ module.exports = function(grunt){
     },
     webfont: {
       icons: {
-        src: path.resolve(__dirname, "./fonts/**.svg"),
+        src: path.resolve(__dirname, "./font/**.svg"),
         dest: path.resolve(__dirname, "./dist/fonts/icons"),
         destCss: path.resolve(__dirname, "./css/imports/"),
         syntax: "bem",
@@ -78,7 +78,7 @@ module.exports = function(grunt){
           stylesheet: "css",
           htmlDemo: true,
           destHtml: path.resolve(__dirname, "./dist/"),
-          relativeFontPath: "../fonts/icons/",
+          relativeFontPath: "../font/icons/",
           templateOptions: {
             baseClass: "Icon",
             classPrefix: 'Icon--',
